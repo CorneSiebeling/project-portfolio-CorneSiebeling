@@ -36,7 +36,18 @@ ul {
     margin-right: 7px;
     position: absolute;
 }
+main{
+    height: 500px;
+}
+div{
+    height: 300px;
+    width: 50%;
+}
 h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
+    color: black;
+}
+p{
+    color: black;
 }
