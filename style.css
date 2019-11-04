@@ -1,5 +1,6 @@
 body{
-    background-color: black;
+    background: linear-gradient(90deg, white, black);
+    
 }
 header{
     background: black;
@@ -7,26 +8,23 @@ header{
     width: 100%;
 }
 nav ul{
-    display: flex;
+list-style-type: none;
+display: flex;
 flex-direction: row;
-position: absolute;
-margin: 40px;
 padding: 20px;
+text-decoration: none;
 }
-
-button{
-    background-color: aqua;
-    border: 2px black solid;
-    height: 50px;
-    width: 200px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;   
+li{
+    float: left;
+    border-right: 1px solid black;
+    text-decoration: none;
 }
 #logo{
-    height: 50px;
-    width: 70px;
+    height: 70px;
+    width: 90px;
     top: 8px;
     right: 16px;
     margin-top: 7px;
     margin-right: 10px;
+    position: absolute;
 }
