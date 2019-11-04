@@ -1,30 +1,42 @@
 body{
-    background: linear-gradient(90deg, white, black);
-    
+    background: linear-gradient(90deg, rgb(228, 215, 215), black);    
 }
-header{
-    background: black;
-    height: 75px;
-    width: 100%;
-}
-nav ul{
-list-style-type: none;
-display: flex;
-flex-direction: row;
-padding: 20px;
-text-decoration: none;
-}
-li{
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
     float: left;
-    border-right: 1px solid black;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-}
+  }
+  
+ 
+  li a:hover {
+    background-color: #111;
+  }
+
 #logo{
     height: 70px;
     width: 90px;
-    top: 8px;
+    top: 0px;
     right: 16px;
-    margin-top: 7px;
-    margin-right: 10px;
+    margin-top: 0px;
+    margin-right: 7px;
     position: absolute;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
 }
