@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(90deg, rgb(228, 215, 215), black);    
+    background: linear-gradient(90deg, aqua, black);    
 }
 
 ul {
@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
   }
   
   li {
@@ -43,15 +43,14 @@ div{
     height: 120px;
     width: 50%;
 }
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
 h1,h2, h3{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     color: black;
-}
-p{
-    color: black;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
 }
 #standbeeld{
   height: 300px;
@@ -104,7 +103,10 @@ input[type=submit]:hover {
   padding: 20px;
 }
 #contact{
+  display: flexbox;
+  justify-content: center;
   width: 220px;
+  border: 4px black solid;
 }
 #playstation{
   position: absolute;
@@ -144,5 +146,9 @@ input[type=submit]:hover {
 #balsport{
   width: 50%;
   height: 240px;
+}
+#progress{
+  height: 10px;
+  width: 40%;
 }
 
