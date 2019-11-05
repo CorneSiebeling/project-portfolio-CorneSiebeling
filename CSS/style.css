@@ -43,7 +43,7 @@ div{
     height: 120px;
     width: 50%;
 }
-h1,h2{
+h1,h2, h3{
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     color: black;
@@ -116,20 +116,33 @@ input[type=submit]:hover {
   margin-right: 40px;
 }
 #gamen{
-  height: 210px;
+  height: 250px;
   width: 50%;
 }
 #badminton{
   position: absolute;
-  top: 80px;
+  top: 420px;
   right: 0;
   width: 300px;
-  height: 250px;
+  height: 200px;
   border-radius: 8px; 
   margin-right: 40px;
 }
 #sport{
-  height: 210px;
+  height: 300px;
   width: 50%;
+}
+#voetbal{
+  position: absolute;
+  top: 700px;
+  right: 0;
+  width: 300px;
+  height: 200px;
+  border-radius: 8px; 
+  margin-right: 40px;
+}
+#balsport{
+  width: 50%;
+  height: 240px;
 }
 
