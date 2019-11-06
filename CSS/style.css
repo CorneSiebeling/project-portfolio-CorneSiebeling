@@ -234,6 +234,18 @@ input[type=dislike] {
   border-radius: 4px;
   cursor: pointer;
 }
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+  float: right;
+  color: white;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+
 
 
 
