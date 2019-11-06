@@ -39,6 +39,7 @@ ul {
 main{
     height: 400px;
 }
+
 div{
     height: 120px;
     width: 50%;
@@ -189,4 +190,41 @@ a{
   font-size: 15px;
   text-decoration: none;
   color:black;
+}
+#mondriaan{
+  width: 300px;
+  height: 200px;
+  border-radius: 8px; 
+}
+#Coolblue{
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
+#project3{
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  margin-top: 50px;
+  text-align: center;
+  height: auto;
+}
+#progressbar {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+  height: auto;
+}
+
+#progressbar>div {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: center;
+  height: auto;
 }
